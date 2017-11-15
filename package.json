@@ -1,0 +1,30 @@
+{
+    "version": "3.3.0",
+    "name": "external-keyboard",
+    "cordova_name": "external-keyboard",
+    "description": "Example project to illustrate/validate usage of cordova-custom-config Cordova/Phonegap plugin",
+    "author": "",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rodie/external-keyboard.git"
+    },
+    "cordova": {
+        "id": "external-keyboard",
+        "platforms": [
+            "ios"
+        ],
+        "plugins": {
+            "cordova-custom-config": {},
+            "cordova-plugin-whitelist": {}
+        }
+    },
+    "issue": "",
+    "scripts": {
+        "test": "npm install && npm run-script jshint && cordova prepare && jasmine",
+        "jshint": "jshint plugins/cordova-custom-config/hooks"
+    },
+    "dependencies": {
+         
+    }
+}
